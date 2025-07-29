@@ -76,12 +76,10 @@ def browse_directory(entry):
         entry.delete(0, tk.END)
         entry.insert(0, path)
 
-# GUI Setup
 app = tk.Tk()
 app.title("File Organizer")
 app.geometry("600x500")
 
-# Use built-in 'clam' theme
 style = ttk.Style()
 style.theme_use("clam")
 
